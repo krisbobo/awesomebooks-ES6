@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import Book from './bookList.js';
 import Store from './storage.js';
 

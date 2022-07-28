@@ -1,3 +1,4 @@
+/* eslint-disable import/extensions */
 import dateTime from './modules/date.js';
 import eventControl from './modules/bookShelling.js';
 import Navigation from './modules/nav.js';
