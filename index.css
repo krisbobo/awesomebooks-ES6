@@ -79,11 +79,15 @@ h1 {
 th {
   color: #b3b3b3;
   font-size: 18px;
+  padding-right: 30px;
+  width: 42.33%;
 }
 
 td {
   color: #000;
   font-size: 15px;
+  text-align: center;
+  padding-right: 20px;
 }
 
 .delete {
@@ -104,7 +108,7 @@ td {
   justify-content: center;
   margin: 0 auto;
   padding: 30px;
-  /* display: none; */
+  display: none;
 }
 
 h2 {
@@ -130,16 +134,17 @@ input {
 
 .year {
   color: #ff7f50;
-  margin: 10px 0 0 0;
+  margin: 20px 50px 0 0;
   font-size: 1rem;
   text-align: end;
+  padding-right: 20px;
 }
 
 .contact {
   padding-top: 2%;
   padding-bottom: 2%;
   line-height: 4vh;
-  /* display: none; */
+  display: none;
 }
 
 .contact-text {
