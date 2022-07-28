@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Title
+# Awesome Books-ES6
 
 > Awesome books ES6 is a simple website that displays a list of books and allows you to add and remove books from that list. I just restructured my Awesome books using modules and practice the ES6 syntax.
 
