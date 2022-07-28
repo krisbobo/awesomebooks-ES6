@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  background-color: grey;
+  height: 53px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+}
+
+.list a {
+  flex-direction: column;
+  padding-right: 50px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  padding-left: 30px;
+  line-height: 20px;
+}
+
+.logo a {
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  background: #fff;
+  margin: 18px auto;
+  max-width: 450px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 23px;
+  color: lightslategray;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.layout {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #fff;
+  border-radius: 5px;
+  border: 2px solid #000;
+  margin: 5px;
+}
+
+th {
+  color: #b3b3b3;
+  font-size: 18px;
+  padding-right: 30px;
+  width: 42.33%;
+}
+
+td {
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+.delete {
+  display: inline-block;
+  border: 0.2rem solid #b3b3b3;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.book {
+  width: 57%;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 30px;
+  display: none;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: lightslategray;
+  font-size: 18px;
+}
+
+form {
+  text-align: end;
+}
+
+input {
+  margin-bottom: 10px;
+  border: 1px solid gray;
+  padding: 5px 15px;
+  text-align: start;
+}
+
+#add-button {
+  padding: 7px 10px;
+}
+
+.year {
+  color: #ff7f50;
+  margin: 20px 50px 0 0;
+  font-size: 1rem;
+  text-align: end;
+  padding-right: 20px;
+}
+
+.contact {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  line-height: 4vh;
+  display: none;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  background: gray;
+  height: 52px;
+  font-size: 9px;
+  position: fixed;
+  bottom: 0;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+footer h2 {
+  color: #fff;
+}
