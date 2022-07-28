@@ -4,6 +4,6 @@ import Navigation from './modules/nav.js';
 
 dateTime();
 
-const nav = new Navigation();
-nav.view();
+const navi = new Navigation();
+navi.view();
 eventControl();
